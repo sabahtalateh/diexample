@@ -1,0 +1,1 @@
+# Example service for [DI](https://github.com/sabahtalateh/di)
