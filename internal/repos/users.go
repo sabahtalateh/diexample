@@ -18,6 +18,7 @@ func NewUsersRepo(db *system.DB) *UsersRepo {
 
 func SetupUsersRepo(c *di.Container) error {
 	return di.Setup[*UsersRepo](c,
+		di.Name("UsersRepo"),
 		di.Init(func(c *di.Container) *UsersRepo {
 			return NewUsersRepo(di.Get[*system.DB](c))
 		}),

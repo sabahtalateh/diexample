@@ -18,6 +18,7 @@ func NewGreetingsRepo(db *system.DB) *GreetingsRepo {
 
 func SetupGreetingsRepo(c *di.Container) error {
 	return di.Setup[*GreetingsRepo](c,
+		di.Name("GreetingsRepo"),
 		di.Init(func(c *di.Container) *GreetingsRepo {
 			return NewGreetingsRepo(di.Get[*system.DB](c))
 		}),

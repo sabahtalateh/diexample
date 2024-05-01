@@ -29,8 +29,8 @@ func SetupGreetingService(c *di.Container) error {
 	return di.Setup[*GreetingService](c,
 		di.Init(func(c *di.Container) *GreetingService {
 			return NewGreetingService(
-				di.Get[*repos.UsersRepo](c),
-				di.Get[*repos.GreetingsRepo](c),
+				di.Get[*repos.UsersRepo](c, di.Name("UsersRepo")),
+				di.Get[*repos.GreetingsRepo](c, di.Name("GreetingsRepo")),
 			)
 		}),
 	)
