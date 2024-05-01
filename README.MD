@@ -10,6 +10,7 @@ See
 - [internal/setup/stages/stages.go](https://github.com/sabahtalateh/diexample/blob/main/internal/setup/stages/stages.go) contains list of stages
 - [internal/setup/container.go](https://github.com/sabahtalateh/diexample/blob/main/internal/setup/container.go) for example of container creation with list of setup functions
 
+---
 
 Start Postgres in docker container
 ```sh
