@@ -20,6 +20,7 @@ Run app
 ```sh
 make run
 ```
+or from VSCode run and debug panel (launch.json is in repo)
 
 Stop Postgres in docker container
 ```sh
