@@ -21,6 +21,8 @@ github.com/sabahtalateh/di v0.0.0-20240501140457-0583042bb789 h1:xlMTguvqJjdl8hK
 github.com/sabahtalateh/di v0.0.0-20240501140457-0583042bb789/go.mod h1:KwWLjz2z2+OgP/Q1jQEHolJ9wHItYOBNCL2HBW8RU1Q=
 github.com/sabahtalateh/di v0.0.0-20240502170652-2d1461b2e8be h1:nceotpcBRoXL2NEpzlv8TbiWZeCFzg6QLxwl8tnch38=
 github.com/sabahtalateh/di v0.0.0-20240502170652-2d1461b2e8be/go.mod h1:KwWLjz2z2+OgP/Q1jQEHolJ9wHItYOBNCL2HBW8RU1Q=
+github.com/sabahtalateh/di v0.0.0-20240502173135-3b40beb2c7fe h1:ekhDrWr+86QkODic7IBC5SBcwtu64oruaqHcoXYNGpg=
+github.com/sabahtalateh/di v0.0.0-20240502173135-3b40beb2c7fe/go.mod h1:KwWLjz2z2+OgP/Q1jQEHolJ9wHItYOBNCL2HBW8RU1Q=
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 golang.org/x/sync v0.7.0 h1:YsImfSBoP9QPYL0xyKJPq0gcaJdG3rInoqxTWbfQu9M=
