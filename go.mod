@@ -2,7 +2,7 @@ module github.com/sabahtalateh/diexample
 
 go 1.21.4
 
-require github.com/sabahtalateh/di v0.0.0-20240501140457-0583042bb789
+require github.com/sabahtalateh/di v0.0.0-20240502170652-2d1461b2e8be
 
 require gopkg.in/yaml.v3 v3.0.1 // indirect
 
